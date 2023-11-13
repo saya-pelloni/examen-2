@@ -26,7 +26,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
-  margin: 10px;
+  margin: 15px;
 }
 
 a {
@@ -38,4 +38,59 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+.photo-pedro {
+  width: 200px;
+}
+
+header {
+  background-image: url(../img/salle-pop.png);
+}
+
+nav {
+  display: flex;
+  color: red;
+  font-size: 20px;
+  word-spacing: 160px;
+  background-color: white;
+  border: 2px;
+  border-color: black;
+}
+
+.logo {
+  display: flex;
+  background-color: black;
+  width: 400px;
+  align-items: center;
+}
+
+.decoration {
+  width: 150px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 35px;
+}
+
+.logo-reseaux {
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 35px;
+}
+
+h4 {
+  background-color: red;
+}
+
+.last-logo {
+  margin-left: 580px;
+  width: 200px;
+}
+
+.web {
+  margin-left: 655px;
 }
