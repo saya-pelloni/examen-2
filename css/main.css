@@ -123,6 +123,7 @@ h1 {
   margin-bottom: 25px;
   font-size: 50px;
   color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 h5 {
@@ -149,4 +150,8 @@ h6 {
   background-color: rgb(252, 222, 222);
   margin-top: 80px;
   padding-bottom: 60px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
