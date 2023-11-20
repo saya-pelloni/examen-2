@@ -45,7 +45,10 @@ video {
 }
 
 header {
-  background-image: url(../img/salle-pop.png);
+  background-color: rgb(252, 222, 222);
+  margin-bottom: 40px;
+  margin: -15px;
+  padding: 30px;
 }
 
 nav {
@@ -57,12 +60,7 @@ nav {
 }
 
 .logo {
-  display: flex;
-  background-color: black;
-  width: 300px;
-  margin-left: 95px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-left: 40px;
 }
 
 .decoration {
@@ -148,7 +146,7 @@ h6 {
 }
 
 .color-back {
-  background-color: rgb(251, 252, 222);
+  background-color: rgb(252, 222, 222);
   margin-top: 80px;
   padding-bottom: 60px;
 }
