@@ -71,6 +71,7 @@ nav .border-nav {
 
 .logo {
   background: black;
+  margin-left: 100px;
 }
 
 .decoration {
@@ -151,9 +152,10 @@ h5 {
   width: 400px;
 }
 
-.affiche-seconde {
-  margin-left: 65px;
-  width: 400px;
+@media (max-width: 768px) {
+  .affiche-seconde {
+    width: 100%;
+  }
 }
 
 .information {
