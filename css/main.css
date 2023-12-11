@@ -67,19 +67,40 @@ nav .border-nav {
   width: 606px;
 }
 
-@media (max-width: 991px) {
+@media (min-width: 991px) {
   nav {
     wigth: 100%;
   }
+
+  p {
+    font-size: 20px;
+  }
+
+  .photo-pedro {
+    width: 40px;
+  }
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation a {
+  padding: 5px;
 }
 
 .logo {
+  display: flex;
+  justify-content: center;
   background: black;
-  margin-left: 100px;
 }
 
-.decoration {
+.decoration-header {
+  display: flex;
+  margin: auto;
   width: 150px;
+  margin-top: 30px;
 }
 
 .decoration-for-cinéma {
@@ -100,10 +121,11 @@ footer {
   margin-bottom: 35px;
 }
 
-.button {
+button {
+  display: flex;
+  justify-content: end;
   background-color: rgb(167, 3, 3);
-  margin-left: 400px;
-  text-align: center;
+  border-radius: 7px;
 }
 
 .last-logo {
