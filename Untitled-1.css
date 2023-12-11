@@ -63,19 +63,8 @@ nav .border-nav {
   border-left: 2px black solid;
 }
 
-.affiche-seconde {
-  width: 606px;
-}
-
-@media (max-width: 991px) {
-  nav {
-    wigth: 100%;
-  }
-}
-
 .logo {
   background: black;
-  margin-left: 100px;
 }
 
 .decoration {
@@ -151,18 +140,17 @@ h5 {
   color: white;
 }
 
+.affiche {
+  margin-left: 65px;
+  width: 400px;
+}
+
 .information {
   background: black;
   color: white;
   padding: 25px;
-}
-
-.info-old {
-  margin-right: 42px;
-}
-
-.info-gangs {
-  margin-right: 40px;
+  margin-left: 65px;
+  margin-right: 53px;
 }
 
 h6 {
